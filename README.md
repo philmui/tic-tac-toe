@@ -19,14 +19,13 @@ A modern, polished tic-tac-toe game built with vanilla HTML, CSS, and JavaScript
 ## Quick Start
 
 1. Clone or download this repository.
-2. Open `game/index.html` in any modern browser.
+2. Open `index.html` in any modern browser.
 3. Select a game mode from the mode selection overlay and click **Start Game**.
 
 That's it. No install, no build step, no server required.
 
 ```bash
 # Or serve locally (optional)
-cd game
 python3 -m http.server 8000
 # Open http://localhost:8000
 ```
@@ -63,17 +62,16 @@ When the game loads (or when you click **New Game**), a mode selection overlay a
 
 ```
 tic-tac-toe/
-  game/
-    index.html      # HTML structure and embedded CSS
-    app.js          # Game logic (OOP/MVC architecture, 7 classes)
-    docs/
-      DESIGN.md         # UI design documentation
-      CODE_REVIEW.md    # Code review report
-      USER_GUIDE.md     # End-user instructions
-      DEVELOPER_GUIDE.md# Developer documentation
-      ARCHITECTURE.md   # System architecture
-      API_REFERENCE.md  # Code API reference
-      CUSTOMIZATION.md  # Theming and extension guide
+  index.html      # HTML structure and embedded CSS
+  app.js          # Game logic (OOP/MVC architecture, 7 classes)
+  docs/
+    DESIGN.md         # UI design documentation
+    CODE_REVIEW.md    # Code review report
+    USER_GUIDE.md     # End-user instructions
+    DEVELOPER_GUIDE.md# Developer documentation
+    ARCHITECTURE.md   # System architecture
+    API_REFERENCE.md  # Code API reference
+    CUSTOMIZATION.md  # Theming and extension guide
   README.md           # This file
 ```
 
@@ -91,7 +89,7 @@ Requires support for CSS custom properties, CSS Grid, `aspect-ratio`, `backdrop-
 
 ## Customization
 
-The game uses CSS custom properties (design tokens) for all visual styling. You can restyle the entire game by editing the `:root` block in `index.html`. See [CUSTOMIZATION.md](game/docs/CUSTOMIZATION.md) for a full guide.
+The game uses CSS custom properties (design tokens) for all visual styling. You can restyle the entire game by editing the `:root` block in `index.html`. See [CUSTOMIZATION.md](docs/CUSTOMIZATION.md) for a full guide.
 
 Quick example - change Player X's color to purple:
 
@@ -106,13 +104,13 @@ Quick example - change Player X's color to purple:
 
 | Document | Description |
 |----------|-------------|
-| [User Guide](game/docs/USER_GUIDE.md) | Gameplay instructions, AI modes, and troubleshooting |
-| [Developer Guide](game/docs/DEVELOPER_GUIDE.md) | Architecture, code structure, AI implementation, and extension guide |
-| [Architecture](game/docs/ARCHITECTURE.md) | System design with component diagrams |
-| [API Reference](game/docs/API_REFERENCE.md) | Complete class and method documentation |
-| [Customization](game/docs/CUSTOMIZATION.md) | Theming, styling, and extending the game |
-| [Design](game/docs/DESIGN.md) | UI design tokens and layout specifications |
-| [Code Review](game/docs/CODE_REVIEW.md) | Code quality review and recommendations |
+| [User Guide](docs/USER_GUIDE.md) | Gameplay instructions, AI modes, and troubleshooting |
+| [Developer Guide](docs/DEVELOPER_GUIDE.md) | Architecture, code structure, AI implementation, and extension guide |
+| [Architecture](docs/ARCHITECTURE.md) | System design with component diagrams |
+| [API Reference](docs/API_REFERENCE.md) | Complete class and method documentation |
+| [Customization](docs/CUSTOMIZATION.md) | Theming, styling, and extending the game |
+| [Design](docs/DESIGN.md) | UI design tokens and layout specifications |
+| [Code Review](docs/CODE_REVIEW.md) | Code quality review and recommendations |
 
 ## Contributing
 
